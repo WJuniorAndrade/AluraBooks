@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --body-background: #EBECEE;;
+    --header-background:#FFFFFF;
+
+}
+
+body{
+    background-color: var(--body-background);
+}
+
+.barra-menu-hamburger{
+    background-color:var(--header-background);
+    
+}
+
+#menu-hamburger{
+    max-width: 85vw;
+    height: 60px;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+   position: relative; 
+}
+
+#menu-hamburger img{
+    margin: 0px 10px;
+    width: 32px;
+    height: 32px;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+/* BARRA DE MENU COM CSS */
+
+/* Para conseguir implementar esse menu é usado uma pseudo classe, onde quando ouver o click no intem de barra de menu o conteudo será exibido em forma de menu hamburger.
+
+Também é usada a propriedade "position" onde podemos definir em que parte o menu aparecerar. 
+
+*/
+
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+} 
+
+.container-menu:checked~.lista-menu{
+    display: block;
+    
+}
+
+.catego-menu-itens{
+    padding: 20px;
+    list-style: none;
+}
+
+.catego-menu-itens a {
+    text-decoration: none;
+}
+
+#tiulo-categoria {
+    text-decoration: none;
+    padding: 20px;
+    list-style: none;
+    font-size: ;
+
+}
