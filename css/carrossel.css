@@ -1,0 +1,74 @@
+#titulo-carrossel {
+    height: 8vh;
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+    
+}
+
+.swiper-button-prev , .swiper-button-next {
+    display: none;
+} 
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card {
+    background-color: var(--branco);
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+}
+
+.desc-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    gap: 5px;
+}
+
+.desc-card h3 {
+    font-size: 1em;
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.desc-card h2 {
+    font-size: 1.1em;
+    color: var(--azul);
+}
+
+.desc-card p {
+    font-size: 0.8em;
+}
+
+
+.button-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-button-card img {
+    margin: 0 0.5em;
+}
+
+.button-card a {
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em 2.2em;
+}

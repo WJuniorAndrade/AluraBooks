@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
 
 @import url(header.css);
+@import url(carrossel.css);
 
 *{
     margin: 0%;
@@ -9,10 +10,12 @@
 
 }
 
-:root{
-    --body-background: #EBECEE;;
+:root{  
+    --body-background: #EBECEE;
     --branco:#FFFFFF;
-    --titulo-menu-categoria:#EB9B00;
+    --laranja:#EB9B00;
+    --azul: #002F52;
+
     --font-Poppins:'Poppins', sans-serif;
 }
 

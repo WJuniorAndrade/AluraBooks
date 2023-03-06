@@ -57,7 +57,7 @@ Também é usada a propriedade "position" onde podemos definir em que parte o me
     text-decoration: none;
     padding: 1.3em;
     list-style: none;
-    color: var(--titulo-menu-categoria);
+    color: var(--laranja);
     font-weight: 600;
 }
 
@@ -70,6 +70,3 @@ Também é usada a propriedade "position" onde podemos definir em que parte o me
     font-weight: 400;
 
 }
-
-
-
