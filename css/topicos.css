@@ -1,0 +1,33 @@
+.topicos {
+    background-image: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    padding: 8px;
+
+}
+
+.lista-itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-topicos {
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.itens-topicos {
+    list-style: none;
+    margin: 1.5em 0.5em;
+}
+
+.itens-topicos a {
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1em;
+    font-size: 0.8em;
+    font-weight: 700;
+}

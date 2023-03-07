@@ -1,5 +1,5 @@
-#titulo-carrossel {
-    height: 8vh;
+.titulo-carrossel {
+    height: 6vh;
     background-color: var(--branco);
     color: var(--laranja);
     font-size: 1.1em;
@@ -29,6 +29,7 @@
     padding: 1em;
     border-radius: 1em;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+    
 }
 
 .desc-card{
@@ -38,18 +39,24 @@
     gap: 5px;
 }
 
-.desc-card h3 {
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descricao h3 {
     font-size: 1em;
     color: var(--laranja);
     font-weight: 700;
 }
 
-.desc-card h2 {
+.descricao h2 {
     font-size: 1.1em;
     color: var(--azul);
 }
 
-.desc-card p {
+.descricao p {
     font-size: 0.8em;
 }
 
@@ -71,4 +78,8 @@
     font-weight: 700;
     text-decoration: none;
     padding: 1em 2.2em;
+}
+
+.estrelas {
+    width: 4vw;
 }
