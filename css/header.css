@@ -11,8 +11,8 @@
 
 #menu-hamburger img{
     margin: 10px 15px;
-    width: 10vw;
-    height: 5vh;   
+    width: 32px;
+    height: 32px;   
 }
 
 .container{
@@ -31,7 +31,7 @@ Também é usada a propriedade "position" onde podemos definir em que parte o me
 */
 
 .lista-menu{
-    display: none;
+    display: block;
     position: absolute;
     top: 100%;
 } 
@@ -49,17 +49,18 @@ Também é usada a propriedade "position" onde podemos definir em que parte o me
 
 
 .catego-menu-itens{
-    padding: 1.3em;
+    padding: 0.8em;
     list-style: none;
 }
 
-#tiulo-categoria {
+#titulo-categoria {
     text-decoration: none;
     padding: 1.3em;
     list-style: none;
     color: var(--laranja);
     font-weight: 600;
 }
+
 
 .catego-menu-itens a {
     text-decoration: none;
@@ -68,5 +69,87 @@ Também é usada a propriedade "position" onde podemos definir em que parte o me
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 400;
+
+}
+
+
+.titulo-container {
+    display: none;
+}
+
+.ops-menu {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .titulo-container,.titulo-negrito {
+        font-family: var(--Josefin-Sans);
+        font-size: 1.5em;
+    
+    }
+
+    .titulo-container {
+        font-weight: 400;
+        display: block;
+    }
+
+
+    .container-titulo-negrito {
+        font-weight: 700;
+
+    }
+
+    .ops-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+    }
+
+    .menu-itens {
+        padding: 0 1em;
+        color: black;
+    }
+    
+    .favorito {
+        display: none;
+    }
+
+    .lista-menu {
+        display: none;
+    }
+
+    .botao-ops:checked~.lista-menu{
+        display: block;
+        background-color: var(--branco);
+        width: 30vh;
+    
+    }
+
+    .catego-menu-itens:hover {
+        text-decoration: underline;
+        transition: 0.5s;
+
+    }
+
+    .botao-ops {
+        display: none;
+    }
+
+    .item-menu-bg  {
+        background-color: #002F52;
+        padding: 0.8em;
+        list-style: none;
+    }
+
+    .item-menu-bg a {
+        text-decoration: none;
+        color: var(--branco);
+    }
+
+    .item-menu-bg:hover {
+        text-decoration: underline;
+        color: var(--branco);
+    }
 
 }
